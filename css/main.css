@@ -1,0 +1,111 @@
+/**********************************
+Browser compatability
+***********************************/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/**********************************
+Whole Website
+***********************************/
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 33.33%;
+}
+.col-5 {
+    width: 41.66%
+}
+.col-6 {
+    width: 49%;
+}
+.col-7 {
+    width: 57.33%;
+}
+.col-8 {
+    width: 65.66%;
+}
+.col-9 {
+    width: 74%;
+}
+.col-10 {
+    width: 82.33%
+}
+.col-11 {
+    width: 90.66%;
+}
+.col-12 {
+    width: 99%;
+}
+
+/**********************************
+Header
+***********************************/
+#header {
+    background-color: blue;
+}
+
+#big {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#small {
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#name {
+    color: white;
+}
+
+/**********************************
+Text
+***********************************/
+p {
+    font-size: 20px;
+}
+
+/**********************************
+Images at Bottom
+***********************************/
+#us {
+    transform: rotate(180deg);
+}
+
+#dogs {
+    width: 418px;
+    height: 286.783px;
+    overflow: hidden;
+}
+
+#dogs img {
+    width: 100%;
+}
+
+figcaption {
+    font-size: 17px;
+}
