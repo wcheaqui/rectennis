@@ -23,6 +23,8 @@ html, body {
 
 .row {
     width: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .col-1 {
@@ -69,13 +71,19 @@ Header
 /**********************************
 Blog
 ***********************************/
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background: #111;
+  background: gray;
   height: 100%;
 }
-.diy-slideshow{
+.slideshow{
   position: relative;
   display: block;
   overflow: hidden;

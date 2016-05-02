@@ -1,5 +1,5 @@
 var counter = 0, // to keep track of current slide
-    $items = $('.diy-slideshow figure'), // a collection of all of the slides, caching for performance
+    $items = $('.slideshow figure'), // a collection of all of the slides, caching for performance
     numItems = $items.length; // total number of slides
 
 // this function is what cycles the slides, showing the next or previous slide and hiding all the others
@@ -22,7 +22,7 @@ $('.prev').on('click', function(){
 
 // if touch events are supported then add swipe interactions using TouchSwipe https://github.com/mattbryson/TouchSwipe-Jquery-Plugin
 if('ontouchstart' in window){
-  $('.diy-slideshow').swipe({
+  $('.slideshow').swipe({
     swipeLeft:function() {
       counter++;
       showCurrent();
